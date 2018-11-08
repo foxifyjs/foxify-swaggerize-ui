@@ -2,15 +2,12 @@
  * Created by GROOT on 2017/3/28.
  */
 const path    = require('path');
-const url     = require('url');
-const express = require('express');
+const Foxify = require('foxify');
 
 module.exports = function swaggerUi(options) {
+    var router = new Foxify.Router();
 
-    var router = new express.Router();
-
-    router.use(express.static(path.resolve(__dirname, 'static')));
+    router.use(Foxify.static(path.resolve(__dirname, 'static')));
 
     return router;
-
 };

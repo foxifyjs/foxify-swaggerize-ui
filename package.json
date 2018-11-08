@@ -1,7 +1,7 @@
 {
-  "name": "express-swaggerize-ui",
-  "version": "1.0.2",
-  "description": "Express middleware to display a swagger-ui 3 page",
+  "name": "foxify-swaggerize-ui",
+  "version": "1.0.0",
+  "description": "Foxify middleware to display a swagger-ui 3 page",
   "main": "index.js",
   "files": [
     "index.js",
@@ -17,20 +17,17 @@
   "keywords": [
     "swagger-ui",
     "swaggerize",
-    "express",
+    "foxify",
     "middleware",
     "swagger-ui-3"
   ],
-  "author": "pgroot",
+  "author": "Foxify",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pgroot/express-swaggerize-ui/issues"
+    "url": "https://github.com/foxifyjs/foxify-swaggerize-ui/issues"
   },
-  "homepage": "https://github.com/pgroot/express-swaggerize-ui",
+  "homepage": "https://github.com/foxifyjs/foxify-swaggerize-ui",
   "dependencies": {
-    "express": "^4.13.3"
-  },
-  "devDependencies": {
-
+    "foxify": "^0.10.10"
   }
 }
